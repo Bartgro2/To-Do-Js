@@ -1,15 +1,30 @@
 
 const person = { 
   name: "Mosh",
-  walk: function() {},
-  talk() {}
+  walk() {
+    console.log(this);
+  }
 };
 
-person.talk();
-person.name = '';
+person.walk();
 
-const targetMember = 'name';
-person[targetMember.value] = 'John';
+
+const walk = person.walk;
+walk();
+
+//this keyword is different in js than in other languages
+//in js, this refers to the object that is executing the current function
+//in the global scope, this refers to the global object (window in browser)
+
+
+
+
+
+
+
+
+
+
 
 
 
