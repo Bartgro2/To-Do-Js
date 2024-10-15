@@ -1,8 +1,26 @@
-const colors = ['red', 'green', 'blue'];
-const items = colors.map((color) => `<li>${color}</li>`);
+// object obstracturing
 
-// map is used to transform each element of an array
-// map returns a new array
+const adress = {
+  street: '',
+  city: '',
+  country: ''
+};
+
+// old way
+const street = adress.street;
+const city = adress.city;
+const country = adress.country;
+
+// new way
+const { street: st} = adress;
+
+
+
+
+
+
+
+
 
 
 
