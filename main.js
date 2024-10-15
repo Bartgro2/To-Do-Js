@@ -1,24 +1,33 @@
-// Escape characters in Javascript are used to represent characters certain special characters within strings, such as newlines, tabs and quotes
+// String Methods and properties
+
+// toUpperCase();
+//let message = "Hello World";
+//console.log(message.toUpperCase());
+
+//toLowerCase();
+//let message = "Hello World";
+//console.log(message.toLowerCase());
+
+// startsWith();
+//let message = "Hello World";
+//console.log(message.startsWith("Hello"));
+
+// endsWith();
+//let message = "Hello World";
+//console.log(message.endsWith("World"));
+
+// replace();
+//let message = "Hello World";
+//console.log(message.replace("World", "Universe"));
+
+// includes();
+//let message = "Hello World";
+//console.log(message.includes("World"));
 
 
-/*
 
-\' :single quote
-\" :double quote
-\\ :backslash
-\n :newline
-\r :carriage return
-\t :tab
-\b :backspace
-\f :form feed
 
-*/
 
-//console.log('\i\'m a Javascript Developer.');
-//console.log("I am a \"Javascript\" Developer.");
-//console.log("Hello \\\\ World");
-
-console.log(`I'm a "Javascript" Developer.`);
 
 
 
