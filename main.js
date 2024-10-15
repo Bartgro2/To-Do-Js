@@ -1,17 +1,31 @@
-// Variables
+// DATA TYPES
+// 1. Strings
 let message = "Hello World";
 console.log(message);
 
-message = "Hello";
-console.log(message);
+// 2. Numbers
+let subscriber = 40;
+console.log(subscriber);
+
+// 3. Boolean
+let hasSubscribed = true;
+console.log(hasSubscribed);
+
+// 4, Null
+let videos = null;
+console.log(videos);
+
+// 5. Undefined
+let age;
+console.log(age);
 
 
-const myAge = 19;
-console.log(myAge);
 
-myAge = 21;
 
-// var 
+
+
+
+
 
 
 
