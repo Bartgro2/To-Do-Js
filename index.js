@@ -1,15 +1,15 @@
 // inheritance
 
-import { Teacher } from './teacher';
+import Teacher, { promote } from './teacher';
+
+// Default -> import ... from './teacher';
+// Named -> import { ... } from './teacher';
 
 const teacher = new Teacher('John', 'MSc');
 teacher.teach();
-teacher.walk();
 
 
-
-
-// super refers to the parent class
+// name and default exports 
 
 
 
