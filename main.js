@@ -1,9 +1,18 @@
-// Capitalize the first letter of the variable name
-let name = "John";
-console.log(name);
+// Arithmetic Operators
+// + add
+// - subtract
+// * multiply
+// / divide
+// % modulo
+// ** exponentiation
 
-let firstName = "John";
-let lastName = "Doe";
+let a = 4;
+let b = 2;
+
+
+
+
+
 
 
 
