@@ -1,3 +1,5 @@
+// inheritance
+
 class Person {
   constructor(name) {
     this.name = name;
@@ -7,13 +9,23 @@ class Person {
   }
 }
 
-const person = new Person('John');
-person.walk();
+class Teacher extends Person {
+  constructor(name, degree) {
+    super(name);
+    this.degree = degree;
+  }
+  teach() {
+    console.log("teach");
+  }
+}
+
+const teacher = new Teacher('John', 'MSc');
+teacher.teach();
+teacher.walk();
 
 
 
-
-
+// super refers to the parent class
 
 
 
