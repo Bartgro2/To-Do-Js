@@ -1,18 +1,32 @@
-// object obstracturing
+// spread operator
 
-const adress = {
-  street: '',
-  city: '',
-  country: ''
-};
+//const first = [1, 2, 3];
+//const second = [4, 5, 6];
 
-// old way
-const street = adress.street;
-const city = adress.city;
-const country = adress.country;
+// const combined = first.concat(second);
+// const combined = [...first, 'a', ...second, 'b'];
 
-// new way
-const { street: st} = adress;
+// const clone = [...first];
+// console.log(first);
+// console.log(clone);
+
+
+const first = { name: 'John' };
+const second = { job: 'Programmer' };
+
+const combined = {...first, ...second, location: 'USA'};
+console.log(combined);
+
+const clone = {...first};
+
+// the spread operator is used to spread the elements of an array into individual elements
+
+
+
+
+
+
+
 
 
 
