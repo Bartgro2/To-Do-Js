@@ -1,28 +1,17 @@
 // String Methods and properties
 
+let message = "Hello World";
+// lenght
+
+console.log(message.length);
+
 // toUpperCase();
-//let message = "Hello World";
-//console.log(message.toUpperCase());
 
-//toLowerCase();
-//let message = "Hello World";
-//console.log(message.toLowerCase());
+console.log(message.toUpperCase());
 
-// startsWith();
-//let message = "Hello World";
-//console.log(message.startsWith("Hello"));
+// toLowerCase();
 
-// endsWith();
-//let message = "Hello World";
-//console.log(message.endsWith("World"));
-
-// replace();
-//let message = "Hello World";
-//console.log(message.replace("World", "Universe"));
-
-// includes();
-//let message = "Hello World";
-//console.log(message.includes("World"));
+console.log(message.toLowerCase());
 
 
 
