@@ -1,14 +1,14 @@
-// Arithmetic Operators
-// + add
-// - subtract
-// * multiply
-// / divide
-// % modulo
-// ** exponentiation
+// compound Assignment Operators
+let x = 5;
+// x +3 // this is the same as x = x + 3;
+// x - 3 // this is the same as x = x - 3;
+// x * 3 // this is the same as x = x * 3;
+// x / 3 // this is the same as x = x / 3;
+// x % 3 // this is the same as x = x % 3;
 
-let a = 4;
-let b = 2;
 
+x /= 3;
+console.log(x);
 
 
 
