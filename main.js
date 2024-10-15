@@ -1,3 +1,10 @@
-console.log("Hello World");
+// Variables
+let message = "Hello World";
+console.log(message);
 
-// This a single-line comment 
+message = "Hello";
+console.log(message);
+
+
+
+
