@@ -1,34 +1,21 @@
-// arrow function
-
-// old way
-const square = function(number) {
-  return number * number;
+const person = {
+  talk() {
+    var self = this;
+    setTimeout(() => {
+      console.log('this', this);
+    }, 1000)
+  }
 }
 
-// new way
-const square2 = (number) => {
-  return number * number;
-} 
+person.talk();
 
-// shorter way
-const square3 = (number) => number * number;
+// callback is not part of any object
+// person.talk() is not a callback
+// setTimeout is not when it uses function keyword,but it is a callback when it uses arrow function
+// since this is part of the person object, it will use the person object as the context
+// arrow functions don't rebind this keyword
 
-console.log(square(3));
 
-// filter
-const jobs = [
-  { id: 1, isActive: true },
-  { id: 2, isActive: true },
-  { id: 3, isActive: false },
-];
-
-// old way
-const activeJobs = jobs.filter(function(job) {
-  return job.isActive;
-});
-
-// new way
-const activeJobs2 = jobs.filter((job) => job.isActive);
 
 
 
