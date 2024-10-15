@@ -9,12 +9,13 @@ const person = {
 person.walk();
 
 
-const walk = person.walk;
+const walk = person.walk.bind(person);
 walk();
 
-//this keyword is different in js than in other languages
-//in js, this refers to the object that is executing the current function
-//in the global scope, this refers to the global object (window in browser)
+// function js are objects has properties and methods you can use 
+// bind method is used to bind a function to an object
+
+
 
 
 
