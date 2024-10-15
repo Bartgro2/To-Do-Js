@@ -1,30 +1,42 @@
-// Type conversion
-// Implicit conversion is when JavaScript automatically converts one data type to another
-// Explicit conversion is when you convert a data type to another data type
+// Escape characters in Javascript are used to represent characters certain special characters within strings, such as newlines, tabs and quotes
+
+
+/*
+
+\' :single quote
+\" :double quote
+\\ :backslash
+\n :newline
+\r :carriage return
+\t :tab
+\b :backspace
+\f :form feed
+
+*/
+
+//console.log('\i\'m a Javascript Developer.');
+//console.log("I am a \"Javascript\" Developer.");
+//console.log("Hello \\\\ World");
+
+console.log(`I'm a "Javascript" Developer.`);
 
 
 
-// Implicit conversion
-console.log(5 + true);
-
-// 5 + true = 6
-
-//text to number = NaN;
-// boolean has fixed number values true = 1, false = 0;
 
 
-// Explicit conversion
-
-/*const mystring = "12";
-const myNumber = Number("abc");
-console.log(myNumber);*/
 
 
-// Nan = Not a Number
 
-let myNumber = 12;
-myNumber = String(myNumber);
-console.log(myNumber);
+
+
+
+
+
+
+
+
+
+
 
 
 
