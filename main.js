@@ -1,8 +1,12 @@
-// Incrementing and decrementing
-let x = 5;
+// String concatenation
+// Join 2 or more strings
+// + operator
 
-// console.log(++x);
-console.log(x++);
+let string1 = "Hello";
+let string2 = "World";
+let greeting = string1 + " " + string2;
+console.log(greeting);
+
 
 
 
