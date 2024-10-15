@@ -1,17 +1,28 @@
-// String Methods and properties
+// Handling and throwing errors
 
-let message = "Hello World";
-// lenght
+/*console.log(myName);*/
+// not defined error
 
-console.log(message.length);
+throw new Error("Something went wrong..."); 
+console.log();
 
-// toUpperCase();
+// try catch finally
 
-console.log(message.toUpperCase());
+try {
+  throw new Error("Something went wrong...");
+} catch (error) {
+  console.log(error);
+} finally {
+   console.log("This will always run!");
+}
 
-// toLowerCase();
+console.log("hello");
 
-console.log(message.toLowerCase());
+
+
+
+
+
 
 
 
