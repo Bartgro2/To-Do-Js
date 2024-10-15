@@ -1,15 +1,18 @@
-// Nested Functions
+// Nested Functions function 
+function sayWorld() {
+      console.log("World");
+}
+
+
+ function sayHello() {
+    console.log("Hello");
+    
+    sayWorld();
+}
+
 function sayHi() {
   console.log("Hi");
 
-  function sayHello() {
-    console.log("Hello");
-
-    function sayWorld() {
-      console.log("World");
-    }
-    sayWorld();
-  }
   sayHello();
 }
 
