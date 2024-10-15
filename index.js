@@ -1,20 +1,8 @@
-const person = {
-  talk() {
-    var self = this;
-    setTimeout(() => {
-      console.log('this', this);
-    }, 1000)
-  }
-}
+const colors = ['red', 'green', 'blue'];
+const items = colors.map((color) => `<li>${color}</li>`);
 
-person.talk();
-
-// callback is not part of any object
-// person.talk() is not a callback
-// setTimeout is not when it uses function keyword,but it is a callback when it uses arrow function
-// since this is part of the person object, it will use the person object as the context
-// arrow functions don't rebind this keyword
-
+// map is used to transform each element of an array
+// map returns a new array
 
 
 
