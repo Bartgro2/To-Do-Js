@@ -1,0 +1,13 @@
+{
+    "tasks": [
+      {
+        "name": "Sample Task 1",
+        "completed": false
+      },
+      {
+        "name": "Sample Task 2",
+        "completed": true
+      }
+    ]
+  }
+  
